@@ -1,0 +1,27 @@
+html,body{
+	height: 100%;
+}
+body {
+	background: radial-gradient(ellipse at center, rgba(241,227,247,1) 0%, rgba(241,227,247,1) 5%, rgba(241,227,247,1) 32%, rgba(240,224,246,1) 35%, rgba(230,202,237,1) 59%, rgba(222,190,233,1) 79%, rgba(212,182,231,1) 100%);
+}
+h1{
+	color:#F83C90;
+	font-family: 'Courgette', cursive;
+	letter-spacing: 0.05em;
+	text-align: center; 
+	text-shadow: 0 0 0.5em #AE5DF2;
+}
+	.galeria{
+		display: flex;
+		justify-content: space-around;
+		margin:0 auto;
+		width: 80%;
+	}
+
+	.galeria div{
+		filter: grayscale(1);
+	}
+
+	.galeria div:hover{
+		filter: grayscale(0);
+	}
